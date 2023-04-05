@@ -1,7 +1,51 @@
-﻿<form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-</form> 
+﻿<html>
+<body>
+    <br> <br>
+    <form action="/action_page.php">
+        <select name="Book_Names" id="Book_Names" style="width: 250px ; height: 30px;border: 2px solid white;background-color : transparent">
+            <option value="book1">book1</option>
+            <option value="book2">book2</option>
+            <option val ue="book3">book3</option>
+        </select>
+		<br>
+        <label for="Book_Names" style="color:white"> Name Book</label>
+        <br>  <br>   <br>
+
+        <input type="number" id="Available_Quantity" name="Available_Quantity"
+               style="width: 250px ; height: 30px;border: 2px solid white;background-color : transparent">
+         <br>      
+        <label for="Available_Quantity" style="color:white">Available Quantity </label>
+        <br>  <br>   <br>
+
+        <input type="number" id="Fine_Per_Day" name="Fine_Per_Day"
+               style="width: 250px ; height: 30px;border: 2px solid white;background-color : transparent">
+        <br>
+        <label for="Available_Quantity" style="color:white">Fine Per Day </label>
+        <br>  <br>   <br>
+
+        <input type="number" id="Available_Durations" name="Available_Durations"
+               style="width: 250px ; height: 30px;border: 2px solid white;background-color : transparent">
+        <br>
+        <label for="Available_Quantity" style="color:white">Available Durations </label>
+        <br>  <br>   <br>
+
+        <input type="date" id="Borrow_Date" name="Borrow_Date"
+               style="width: 250px ; height: 30px;border: 2px solid white;background-color : transparent">
+        <br>
+        <label for="Available_Quantity" style="color:white">Borrow Date </label>
+        <br>  <br>   <br>
+
+        <input type="date" id="Return_Date" name="Return_Date"
+               style="width: 250px ; height: 30px;border: 2px solid white;background-color : transparent">
+        <br>
+        <label for="Available_Quantity" style="color:white">Return Date </label>
+        <br>  <br>   <br>
+
+        <input type="submit" value="Borrow" style="width: 250px ; height: 70px;border: 2px solid white;margin-left: 300px;
+        font-size: 50px;font-family: Montserrat;">
+
+    </form>
+
+</body>
+</html>
+
