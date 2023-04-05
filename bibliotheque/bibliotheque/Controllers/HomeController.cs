@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using bibliotheque.Models;
+using System.Reflection.Metadata.Ecma335;
 
 namespace bibliotheque.Controllers;
 
@@ -23,6 +24,10 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult BookEntry()
+    {
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
