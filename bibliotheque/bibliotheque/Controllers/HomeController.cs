@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using bibliotheque.Models;
 
@@ -23,11 +23,15 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult BookEntry()
+    {
+        return View();
+    }
+    
     public IActionResult ClientHistory()
     {
         return View();
     }
-
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
