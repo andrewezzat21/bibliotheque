@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client History</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+
+    <form>
+        <div class="mainformcontainer">
+
+            <div class="inputwrap">
+                <div class="inputcontainer">
+                    <input maxlength="2" class="forminput" type="number" id="NatID" min="1" max="99999999999999">
+                    <div class="formlabel">National ID</div>
+                </div>
+
+                <div class="inputcontainer">
+                    <textarea disabled class="forminput" type="text" id="CliHis" min="1"></textarea>
+                    <div class="formlabel">Client History</div>
+                </div>
+            </div>
+
+            <div class="submitcontainer">
+                <input class="formbutton" type="submit" value="Submit">
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>
+
+

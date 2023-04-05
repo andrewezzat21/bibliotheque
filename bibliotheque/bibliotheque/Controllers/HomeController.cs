@@ -1,7 +1,6 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using bibliotheque.Models;
-using System.Reflection.Metadata.Ecma335;
 
 namespace bibliotheque.Controllers;
 
@@ -25,6 +24,11 @@ public class HomeController : Controller
     }
 
     public IActionResult BookEntry()
+    {
+        return View();
+    }
+    
+    public IActionResult ClientHistory()
     {
         return View();
     }
