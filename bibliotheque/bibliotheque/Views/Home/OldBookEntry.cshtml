@@ -1,16 +1,13 @@
 ﻿<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Borrow</title>
+    <title>Old Book Entry</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-
 <form>
-
     <div class="mainformcontainer">
 
         <div class="inputwrap">
-
             <div class="inputcontainer">
                 <select class="formselect" name="book_name">
                     <option selected> </option>
@@ -22,27 +19,16 @@
             </div>
 
             <div class="inputcontainer">
-                <textarea class="forminput" disabled id="available_quantity" name="available_quantity"></textarea>
-                <div class="formlabel">Available Quantity</div>
+                <input class="forminput" type="number" id="book_quantity" name="book_quantity" />
+                <div class="formlabel">Book Quantity</div>
             </div>
-
-            <div class="inputcontainer">
-                <input class="forminput" type="number" id="fine_per_day" name="fine_per_day">
-                <div class="formlabel">Fine Per Day </div>
-            </div>
-
-            <div class="inputcontainer">
-                <input class="forminput" type="date" id="return_date" name="return_date">
-                <div class="formlabel">Return Date </div>
-            </div>
-
 
         </div>
 
+
         <div class="submitcontainer">
-            <input type="submit" value="Borrow" class="formbutton">
+            <input class="formbutton" type="submit" value="OK">
         </div>
 
     </div>
-
 </form>
