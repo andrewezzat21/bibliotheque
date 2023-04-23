@@ -12,38 +12,40 @@
         <div class="sidebar">
             <div class="sidebar-content">
                 <div class="logo">
-                    <img class="logo-img" src="~/css/logo.png" alt="logo">
+                    <a asp-controller="Home" asp-action="Index"><img class="logo-img" src="~/css/logo.png" alt="logo"></a>
                 </div>
 
                 <ul class="lists">
                     <li class="list">
-                        <a href="#" class="nav-link">
+                        <a asp-controller="Home" asp-action="Borrow" class="nav-link">
                             <span class="link">Borrow</span>
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#" class="nav-link">
+                        <a asp-controller="Home" asp-action="Buy" class="nav-link">
                             <span class="link">Buy</span>
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#" class="nav-link">
+                        <a asp-controller="Home" asp-action="Return" class="nav-link">
                             <span class="link">Return</span>
                         </a>
                     </li>
                 </ul>
 
                 <div class="bottom-content">
-                    <li class="list">
-                        <a href="#" class="nav-link">
-                            <span class="link">Book Entry</span>
-                        </a>
-                    </li>
-                    <li class="list">
-                        <a href="#" class="nav-link">
-                            <span class="link">Client History</span>
-                        </a>
-                    </li>
+                    <ul>
+                        <li class="list">
+                            <a asp-controller="Home" asp-action="BookEntry" class="nav-link">
+                                <span class="link">Book Entry</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a asp-controller="Home" asp-action="ClientHistory" class="nav-link">
+                                <span class="link">Client History</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
