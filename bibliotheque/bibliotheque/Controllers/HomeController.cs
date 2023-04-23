@@ -27,8 +27,33 @@ public class HomeController : Controller
     {
         return View();
     }
-    
+
+    public IActionResult NewBookEntry()
+    {
+        return View();
+    }
+
+    public IActionResult OldBookEntry()
+    {
+        return View();
+    }
+
     public IActionResult ClientHistory()
+    {
+        return View();
+    }
+
+    public IActionResult ClientInformation()
+    {
+        return View();
+    }
+
+    public IActionResult Return()
+    {
+        return View();
+    }
+
+    public IActionResult Buy()
     {
         return View();
     }
