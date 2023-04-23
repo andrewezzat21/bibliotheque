@@ -1,0 +1,44 @@
+﻿<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Book Entry</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<form>
+    <div class="mainformcontainer">
+
+        <div class="inputwrap">
+            <div class="inputcontainer">
+                <input class="forminput" type="text" id="book_name" name="book_name" />
+                <div class="formlabel">Book Name</div>
+            </div>
+
+            <div class="inputcontainer">
+                <input class="forminput" type="text" id="author" name="author" />
+                <div class="formlabel">Author</div>
+            </div>
+
+            <div class="inputcontainer">
+                <input class="forminput" type="number" id="book_quantity" name="book_quantity" />
+                <div class="formlabel">Book Quantity</div>
+            </div>
+
+            <div class="inputcontainer">
+                <input class="forminput" type="number" id="price" name="price"/>
+                <div class="formlabel">Book Price</div>
+            </div>
+
+            <div class="inputcontainer">
+                <input class="forminput" type="checkbox" id="borrowable" name="borrowable" style="width:40px; height:40px;" />
+                <div class="formlabel">Borrowable</div>
+            </div>
+
+        </div>
+
+
+        <div class="submitcontainer">
+            <input class="formbutton" type="submit" value="OK">
+        </div>
+
+    </div>
+</form>
